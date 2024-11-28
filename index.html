@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2024</title>
+    <link rel="stylesheet" href="ipl.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to IPL 2024</h1>
+        <p>Live updates, teams, matches, and more.</p>
+    </header>
+
+    <section class="teams">
+        <h2>IPL Teams</h2>
+        <div class="team-list">
+            <div class="team-card" onclick="showTeamInfo('Chennai Super Kings')">
+                <h3>Chennai Super Kings</h3>
+                <img src="https://th.bing.com/th?id=OIP.X4CgIZC9lODb9jAgwXh_EQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Chennai Super Kings Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('Mumbai Indians')">
+                <h3>Mumbai Indians</h3>
+                <img src="https://th.bing.com/th?id=OIP.qWWYEf6s8lcft4_9MwpwtQHaFq&w=285&h=218&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Mumbai Indians Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('royal challengers bangaluru')">
+                <h3>royal challengers bangaluru</h3>
+                <img src="https://th.bing.com/th?id=OIP.g2L0j-3TMJRPYkefo75xbwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="royal challengers bangaluru Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('kolkata knight riders')">
+                <h3>kolkata knight riders</h3>
+                <img src="https://th.bing.com/th/id/OIP.a8yFhslTeEjLPPDYmNYvvQHaEZ?w=286&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="kolkata knight riders Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('sunrisers hydrabad')">
+                <h3>sunrisers hydrabad</h3>
+                <img src="https://th.bing.com/th/id/OIP.JhbzdlijyEi2O26DqGUo0AHaEK?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="sunrisers hydrabad Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('delhi capitals')">
+                <h3>delhi capitals</h3>
+                <img src="https://th.bing.com/th?id=OIP.jv7zjtl1pgi-t54XwenMswHaEU&w=327&h=190&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="delhi capitals Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('rajasthan royals')">
+                <h3>rajasthan royals</h3>
+                <img src="https://th.bing.com/th?id=OIP.RRM5n_zF6oOe7qsf7ITyfQAAAA&w=282&h=212&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="rajasthan royals Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('gujarat titans')">
+                <h3>gujarat titans</h3>
+                <img src="https://th.bing.com/th?id=OIP.uv58EdbsMjiHzgkw91rEXwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="gujarat titans Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('punjab kings')">
+                <h3>punjab kings</h3>
+                <img src="https://th.bing.com/th/id/OIP.xWcRqthg8_VnvsRCJO2cMwHaEC?w=281&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="punjab kings Logo">
+            </div>
+            <div class="team-card" onclick="showTeamInfo('lucknow super giants')">
+                <h3>lucknow super giants</h3>
+                <img src="https://www.iplticket.co.in/wp-content/uploads/2022/03/IPL-Tickets-Lucknow.jpg" alt="lucknow super giants" Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="team-info" id="team-info">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IPL - All Rights Reserved</p>
+    </footer>
+
+    <script src="ipl.js"></script>
+</body>
+</html>
